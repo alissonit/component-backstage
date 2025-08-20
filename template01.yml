@@ -19,4 +19,4 @@ spec:
       name: Log Message
       action: debug:log
       input:
-        message: "Hello, ${{ parameters.name || 'alisson' }}!"
+        message: ${{ parameters.name || 'alisson' }}
